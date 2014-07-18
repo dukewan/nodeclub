@@ -63,7 +63,6 @@
           </form>
           <ul class='nav pull-right'>
             <li><a href='/'>首页</a></li>
-            <li><a href='https://github.com/cnodejs/nodeclub/wiki/'>Wiki</a></li>
             <%
             var site_navs = config.site_navs || [];
             for (var i = 0, l = site_navs.length; i < l; i++) {
@@ -98,14 +97,10 @@
         <div class="links">
           <a class='dark' href='/about'>关于</a>
           |
-          <a class='dark' href='/faq'>FAQ</a>
-          |
-          <a class='dark' href='https://github.com/cnodejs/nodeclub/' target="_blank">GitHub</a>
-          |
           <a class='dark' href='/rss' target="_blank">RSS</a>
         </div>
         <div class='col_fade'>
-          &copy; <%= "2012 - " + (new Date()).getFullYear() %> <br>本社区为开源系统，版本: <%= config.version %> ，欢迎贡献代码<br>
+          &copy; <%= "2014 - " + (new Date()).getFullYear() %> <br>本社区为开源系统，基于nodeclub，版本: <%= config.version %> ，欢迎贡献代码 Github: <a class="dark" href="https://github.com/cnodejs/nodeclub/" target="_blank">nodeclub</a><br>
           本社区搭建在<a href='https://www.digitalocean.com/' target='_blank'> DigitalOcean </a>上
         </div>
       </div>
